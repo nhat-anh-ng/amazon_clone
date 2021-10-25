@@ -1,0 +1,17 @@
+<div class="checkout" fxLayout="row" fxLayout.xs="column">
+    <div class="checkout_left">
+        <div fxLayout="column"  class="checkout_empty" *ngIf="shopping_cart.getCartLength() ==  0">
+            <h2>Your basket is empty</h2>
+            <p>You have no items in your basket</p>
+        </div>
+
+        <div class="checkout_not_empty" *ngIf="shopping_cart.getCartLength() !=0">
+            <h1> Shopping Cart</h1>
+            <app-checkout-products [checkout_products] = "items" (deleteEvent)= "deleteEventHandler()"></app-checkout-products>
+        </div>
+    </div>
+
+    <div class="checkout_right">
+        <app-checkout-subtotal></app-checkout-subtotal>
+    </div>
+</div>

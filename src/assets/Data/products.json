@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "Xbox Series S - 512GB SSD Console with Wireless Controller - EU Version with US Power Cable",
+        "description": "Description",
+        "price": 399.00,
+        "image": "https://images.unsplash.com/photo-1604586376807-f73185cf5867?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8eGJveHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 4
+    },
+    {
+        "id": 2,
+        "title": "Sceptre E248W-19203R 24 Ultra Thin 75Hz 1080p LED Monitor 2x HDMI VGA Build-in Speakers",
+        "description": "Description",
+        "price": 139.00,
+        "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bW9uaXRvcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 4
+    },
+    {
+        "id": 3,
+        "title": "X9 Performance Wired Keyboard for Laptop - Simple, Slim, and Reliable - Full Size Keyboard for PC and Chrome",
+        "description": "Description",
+        "price": 45.00,
+        "image": "https://media.istockphoto.com/photos/closeup-of-hands-on-the-keyboard-picture-id1129494115?b=1&k=20&m=1129494115&s=170667a&w=0&h=-LCqaDZ1NqM0_X6TXEDzk4XApzFrQyOCQrY8rshuoiM=",
+        "ratings": 4
+    },
+    {
+        "id": 4,
+        "title": "High Back Gaming Chair PC Office Chair Racing Computer Chair ",
+        "description": "Description",
+        "price": 79.00,
+        "image": "https://images.unsplash.com/photo-1596079890775-20e5099dc924?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2hhaXIlMjBnYW1lcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 4
+        
+    },
+    {
+        "id": 5,
+        "title": "SONY PlayStation 4 Slim 1TB Console, Light & Slim PS4",
+        "description": "Description",
+        "price": 450.00,
+        "image": "https://images.unsplash.com/photo-1507457379470-08b800bebc67?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGxheXN0YXRpb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 4
+    },
+    {
+        "id": 1,
+        "title": "Nintendo Switch with Neon Blue and Neon Red Joy‑Con - HAC-001(-01)",
+        "description": "Description",
+        "price": 350.00,
+        "image": "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmludGVuZG98ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 4
+    }
+]

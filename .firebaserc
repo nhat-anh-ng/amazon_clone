@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angularcrud-f9c20": {
+      "hosting": {
+        "amazon-clone": [
+          "angularcrud-f9c20"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angularcrud-f9c20"
+  }
+}
