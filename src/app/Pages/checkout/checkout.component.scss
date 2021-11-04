@@ -3,20 +3,20 @@
   display: flex;
   width: 100%;
   margin-top: 58px;
-}
-.checkout_left {
-  flex: 1;
-}
-.checkout_empty {
-  margin: 20px 20px 400px 20px;
-}
-.checkout_right {
-  justify-content: flex-end;
-  margin-left: 20px;
-}
-h1 {
-  margin-left: 10px;
-  margin-top: 24px;
-  font-size: 32px;
-  font-weight: lighter;
+  .checkout_left {
+    flex: 1;
+    .checkout_empty {
+      margin: 20px 20px 400px 20px;
+    }
+    h1 {
+      margin-left: 10px;
+      margin-top: 24px;
+      font-size: 32px;
+      font-weight: lighter;
+    }
+  }
+  .checkout_right {
+    justify-content: flex-end;
+    margin-left: 20px;
+  }
 }
