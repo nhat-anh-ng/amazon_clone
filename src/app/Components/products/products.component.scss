@@ -3,28 +3,32 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 32px 0px;
-  .product > mat-card > img {
-    object-fit: contain;
-    height: 200px;
+
+  .product {
+    mat-card {
+      display: flex;
+      flex-direction: column;
+      min-height: 350px;
+      width: 300px;
+      margin: 20px;
+      align-items: center;
+      img {
+        object-fit: contain;
+        height: 200px;
+      }
+      button {
+        margin-top: 20px;
+        background-color: #f0c14b;
+        border: 1px solid;
+        border-radius: 2px;
+        border-color: #a88134 #9c7e31 #846a29;
+        cursor: pointer;
+        height: 30px;
+        padding: 0.5rem;
+      }
+    }
   }
-  .product > mat-card {
-    display: flex;
-    flex-direction: column;
-    min-height: 350px;
-    width: 300px;
-    margin: 20px;
-    align-items: center;
-  }
-  .product > mat-card > button {
-    margin-top: 20px;
-    background-color: #f0c14b;
-    border: 1px solid;
-    border-radius: 2px;
-    border-color: #a88134 #9c7e31 #846a29;
-    cursor: pointer;
-    height: 30px;
-    padding: 0.5rem;
-  }
+
   .price {
     font-size: 2rem;
   }
