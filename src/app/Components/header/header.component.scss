@@ -15,10 +15,15 @@
       display: flex;
       padding: 10px 8px 8px 8px;
       width: 100%;
-      .header_menu_icon > mat-icon {
-        font-size: 30px;
-        align-items: center;
-        cursor: pointer;
+      div {
+        margin: 8px;
+      }
+      .header_menu_icon {
+        mat-icon {
+          font-size: 30px;
+          align-items: center;
+          cursor: pointer;
+        }
       }
       .header_menu_searchbar {
         display: flex;
@@ -79,8 +84,4 @@
       }
     }
   }
-}
-
-.header_menu > div {
-  margin: 8px;
 }
