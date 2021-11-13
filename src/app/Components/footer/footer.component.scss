@@ -1,8 +1,10 @@
+@import "../../Style/variables.scss";
+
 .footer {
-  background-color: #232f3e;
+  background-color: $footerColorBackground;
   h2 {
     margin-top: 32px;
-    color: white;
+    color: $footerColor;
     font-weight: 500;
   }
   ul {
@@ -10,7 +12,7 @@
     li {
       list-style: none;
       padding: 6px 0px;
-      color: white;
+      color: $footerColor;
 
       cursor: pointer;
     }
