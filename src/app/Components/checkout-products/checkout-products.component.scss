@@ -4,7 +4,7 @@
     text-align: right;
   }
   .checkout_product {
-    border-top: solid 1px rgb(219, 218, 218);
+    border-top: solid 1px $productCheckout;
     display: flex;
     padding: 24px 0px;
     .checkout_product_img {
@@ -21,13 +21,13 @@
         object-fit: contain;
       }
       .checkout_product_title {
-        color: #0066c0;
+        color: $productTextColor;
         font-size: 17px;
         font-weight: 700;
         line-height: 1.255;
       }
       .checkout_product_in_stock {
-        color: #067d62;
+        color: $inStockColor;
         font-size: 12px;
         line-height: 1.5;
       }
@@ -39,7 +39,7 @@
         .checkout_product_more {
           text-decoration: none;
           margin-left: 5px;
-          color: #0066c0;
+          color: $productTextColor;
         }
       }
       .checkout_options {
@@ -48,7 +48,7 @@
         a {
           text-decoration: none;
           padding: 8px 8px 8px 0px;
-          color: #0066c0;
+          color: $productTextColor;
           height: 20px;
           font-size: 12px;
           cursor: pointer;
@@ -64,7 +64,7 @@
   }
   .checkout_products_subtotal {
     margin-top: 20px;
-    border-top: solid 1px rgb(219, 218, 218);
+    border-top: solid 1px $productCheckout;
     padding: 24px 0px;
     width: 100%;
     text-align: right;
