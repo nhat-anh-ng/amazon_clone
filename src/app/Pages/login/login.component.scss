@@ -1,3 +1,5 @@
+@import "../../Style/variables.scss";
+
 .login {
   margin: 10px;
   display: flex;
@@ -16,7 +18,7 @@
       margin: 12px 20px 12px 2px;
     }
     .login_form {
-      border: solid lightgray 1px;
+      border: $loginFormBorder 1px;
       padding: 20px;
       width: 300px;
       h1 {
@@ -31,17 +33,17 @@
         input {
           height: 30px;
           margin-bottom: 10px;
-          background-color: white;
+          background-color: $loginInput;
           width: 97%;
         }
         .login_signIn_button {
-          background-color: #f0c14b;
+          background-color: $btnPrimaryBackground;
           border: 1px solid;
           border-radius: 2px;
           width: 100%;
           height: 30px;
-          color: black;
-          border-color: #a88134 #9c7e31 #846a29;
+          color: $btnColor;
+          border-color: $btnPrimaryBorder;
           cursor: pointer;
         }
         .login_create_button {
@@ -49,8 +51,8 @@
           border-radius: 2px;
           width: 100%;
           height: 30px;
-          color: black;
-          border-color: grey;
+          color: $btnColor;
+          border-color: $btnSecondaryBorder;
           cursor: pointer;
         }
         .login_terms {
