@@ -6,7 +6,7 @@
     text-align: right;
   }
   .checkout_product {
-    border-top: solid 1px $productCheckout;
+    border-top: $productCheckout;
     display: flex;
     padding: 24px 0px;
     .checkout_product_img {
@@ -66,7 +66,7 @@
   }
   .checkout_products_subtotal {
     margin-top: 20px;
-    border-top: solid 1px $productCheckout;
+    border-top: $productCheckout;
     padding: 24px 0px;
     width: 100%;
     text-align: right;
