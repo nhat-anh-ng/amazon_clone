@@ -12,14 +12,14 @@
       flex-direction: column;
       min-height: 350px;
       width: 300px;
-      margin: 20px;
+      margin: $margin;
       align-items: center;
       img {
         object-fit: contain;
         height: 200px;
       }
       button {
-        margin-top: 20px;
+        margin-top: $margin;
         background-color: $btnPrimaryBackground;
         border: 1px solid;
         border-radius: 2px;

@@ -9,7 +9,7 @@
   background-color: $subtotalBackground;
   border: 1px solid $subtotalBorder;
   border-radius: 3px;
-  margin: 20px;
+  margin: $margin;
   .subtotal_gift {
     display: flex;
     flex-direction: row;
