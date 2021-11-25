@@ -11,8 +11,8 @@
     font-size: 14px;
     display: flex;
     color: $headerColor;
-    padding-right: 8px;
-    padding-bottom: 8px;
+    padding-right: $padding;
+    padding-bottom: $padding;
     .header_menu {
       display: flex;
       padding: 10px 8px 8px 8px;
@@ -71,7 +71,7 @@
       }
       .header_menu_cart {
         display: flex;
-        padding-top: 8px;
+        padding-top: $padding;
         margin-left: 8px;
         height: 50px;
         justify-content: space-around;
